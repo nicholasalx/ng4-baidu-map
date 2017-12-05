@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "variable-name": false,
+    "no-implicit-dependencies": false,
+    "no-console": false,
+    "no-empty": false,
+    "interface-name": false,
+    "max-classes-per-file": false,
+    "no-empty-interface": false,
+    "no-submodule-imports": false,
+    "semicolon": [true, "never"],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-first",
+        "named-imports-order": "lowercase-first",
+        "grouped-imports": true
+      }
+    ],
+    "no-unused-variable": true
+  }
+}
