@@ -7,9 +7,9 @@ import { Component } from '@angular/core'
     <ul class="menu" highlight>
         <li>
             <div>
-                <div class="type-name">Use <code>angular2-baidu-map</code> module:</div>
+                <div class="type-name">Use <code>ng4-baidu-map</code> module:</div>
                 <div class="snippet">
-                    <pre><code class="typescript">import &#123; BaiduMapModule &#125; from 'angular2-baidu-map';
+                    <pre><code class="typescript">import &#123; BaiduMapModule &#125; from 'ng4-baidu-map';
 import &#123; DemoComponent &#125; from './demo.component';
 
 @NgModule(&#123;
@@ -31,7 +31,7 @@ export class DemoModule &#123; &#125;</code></pre>
                 <div class="type-name">Use <code>&lt;baidu-map&gt;</code> element:</div>
                 <div class="snippet">
                     <pre><code class="typescript">import &#123; Component &#125; from '@angular/core';
-import &#123; MapOptions &#125; from 'angular2-baidu-map';
+import &#123; MapOptions &#125; from 'ng4-baidu-map';
 
 @Component(&#123;
     selector: 'demo',

@@ -15,7 +15,7 @@ module.exports = function(env = {}) {
       path: resolve(__dirname, 'build'),
       filename: '[hash].[name].bundle.js',
       chunkFilename: '[hash].[id].bundle.js',
-      publicPath: isProd ? '/angular2-baidu-map/' : '/'
+      publicPath: isProd ? '/ng4-baidu-map/' : '/'
     },
     devtool: '#source-map',
     devServer: {
@@ -71,7 +71,7 @@ module.exports = function(env = {}) {
         template: resolve(__dirname, 'demo', 'index.html'),
         favicon: resolve(__dirname, 'demo', 'img', 'favicon.ico'),
         hash: false,
-        base: isProd ? '/angular2-baidu-map/' : '/'
+        base: isProd ? '/ng4-baidu-map/' : '/'
       })
     ]
   }

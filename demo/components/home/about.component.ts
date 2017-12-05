@@ -5,7 +5,7 @@ import { Component } from '@angular/core'
   template: `
     <h1>About</h1>
     <p>
-    <code>angular2-baidu-map</code> 
+    <code>ng4-baidu-map</code> 
     is a set of components written in <code>TypeScript</code> 
     which integrate <a href="http://lbsyun.baidu.com/" target="_blank">百度地图</a> in an Angular applications.
     </p>

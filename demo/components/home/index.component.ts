@@ -28,7 +28,7 @@ import { BMapInstance, MapOptions, Point } from '../../../src'
         `
   ],
   template: `
-    <h1 class="page-title">angular2-baidu-map</h1>
+    <h1 class="page-title">ng4-baidu-map</h1>
     <baidu-map [options]="opts" (loaded)="onMapLoad($event)">
         <marker [point]="point" (clicked)="onClickMarker($event)"></marker>
     </baidu-map>

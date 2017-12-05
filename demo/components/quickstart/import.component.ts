@@ -9,7 +9,7 @@ import { Component } from '@angular/core'
             <div>
                 <div class="type-name">Typescript:</div>
                 <div class="snippet">
-                    <pre><code class="typescript">import &#123; BaiduMapModule &#125; from 'angular2-baidu-map';</code></pre>
+                    <pre><code class="typescript">import &#123; BaiduMapModule &#125; from 'ng4-baidu-map';</code></pre>
                 </div>
             </div>
         </li>

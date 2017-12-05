@@ -9,7 +9,7 @@ import { Component } from '@angular/core'
             <div>
                 <div class="type-name">Npm:</div>
                 <div class="snippet">
-                    <pre><code class="bash">npm install angular2-baidu-map --save</code></pre>
+                    <pre><code class="bash">npm install ng4-baidu-map --save</code></pre>
                 </div>
             </div>
         </li>

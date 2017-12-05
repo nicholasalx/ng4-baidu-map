@@ -11,7 +11,7 @@ import { Component } from '@angular/core'
     </p>
     <br/>
     <ul>
-        <li><a href="https://github.com/leftstick/angular2-baidu-map/tree/3.x" target="_blank">version 3.x</a></li>
+        <li><a href="https://github.com/nicholasalx/ng4-baidu-map/tree/3.x" target="_blank">version 3.x</a></li>
     </ul>
     `
 })
